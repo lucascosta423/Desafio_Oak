@@ -1,0 +1,29 @@
+header{
+  border: 1px solid red;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header > button{
+  width: 150px;
+  height: 40px;
+  font-size: .7em;
+}
+.container_form{
+  padding: 5px;
+}
+.container_form > div{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.container_form > div > label{
+  width: 35%;
+}
+.container_form > div > input,
+.container_form > div > select{
+  width: 60%;
+}
